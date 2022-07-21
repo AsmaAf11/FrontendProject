@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+ background-color: rgb(188, 201, 208);
+ background-size: 100%;
+  background-size:cover;
+  height: 150vh;
+
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: rgb(22, 64, 77);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1{
+  color:rgb(22, 64, 77);
+}
+.Nav{
+  background-color:rgb(22, 64, 77);
+}
+.bg-blue-500 {
+  color:rgb(22, 64, 77);
+
+}
+.myform{
+  margin-top: 50px;
+  padding: 50px;
+
+}
+
+
+.myimg{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border-radius: 5%;
+  height: 700px;
+  width: 800px;
+}
+.containerr{
+  color:rgb(22, 64, 77);
+  font-size:40px;
+  font-weight:bold;
+  font-family:'Times New Roman', Times, serif;
+  margin-top:0px;
+
+
+}
+.star{
+  height: 10px;
+  width:10px;
+  margin:0px;
+}
+
+.start{
+  height:50px;
+  width:50px;
+}
+.start:hover{
+  height:60px;
+  width:60px;
+}
+
+.backk{
+  background-color:rgb(22, 64, 77) !important;
+  color:white !important;
+}
+.homeicone{
+ margin-left: 10px;
+}
+
+
+.cards{
+  margin-left:25%;
+  margin-right:25%;
+  margin-top: 20px;
+  padding-top: 20px;
+  align-items: center;
+  height: 500px !important;
+  width: 500px !important;
+  background-color: rgb(188, 201, 208)!important;
+
+
+}
+
+.cards1{
+  
+  border: 10px;
+  align-items: center;
+  height: 500px !important;
+  width: 500px !important;
+  background-color: rgb(188, 201, 208) !important;
+  border: rgb(188, 201, 208) !important;
+
+}
