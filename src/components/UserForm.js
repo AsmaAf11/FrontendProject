@@ -3,7 +3,7 @@ import FormUserDetails from './FormUserDetails'
 import FormPersonalDetails from './FormPersonalDetails'
 import Confirm from './Confirm'
 import Success from './Success'
-import ResDownload from './ResDownload'
+
 
 
 export class UserForm extends Component {
@@ -84,14 +84,7 @@ export class UserForm extends Component {
                 
                 />
             )
-            case 5:
-                return(
-                    <ResDownload
-               
-                    values={values}
-                    
-                    />
-                )
+            
 
     }
   }

@@ -2,7 +2,7 @@ import React from 'react'
 import UserForm from './UserForm.js'
 import ContactUs from './ContactUs'
 import RatingPage from './RatingPage'
-import Templatess from './Templatess'
+
 import Examples from './Examples.js'
 
 import resume from "./img/resume.png";
@@ -31,7 +31,7 @@ function Home() {
             <Nav.Link href="/RatingPage">RatingPage</Nav.Link>
             <Nav.Link href="/Examples">Examples</Nav.Link>
 
-            {/* <Nav.Link href="/Templatess">Templates</Nav.Link> */}
+
 
 
        

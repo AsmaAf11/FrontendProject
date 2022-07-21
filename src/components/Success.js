@@ -1,17 +1,18 @@
 import React, { Component } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider' ;
-import AppBar from 'material-ui/AppBar'
-import {List,ListItem} from 'material-ui/List'
+
+
 import RaisedButton from 'material-ui/RaisedButton'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import printer from "./img/printer.png";
+
 import './Success.css'
-import Button from 'react-bootstrap/Button';
-import ResDownload from './ResDownload.js'
 
 
 export class Success extends Component {
+
 
 
 
@@ -30,14 +31,18 @@ export class Success extends Component {
       const{ values:{firstName,lastName,email,occupation,city ,bio,education,skills}} = this.props;
 
     return (
+
       <>
+  
       <MuiThemeProvider>
-        
+      
           <React.Fragment>
-          <h1>Success</h1><br/>
+          
+          <h1>Success</h1>  <img src={printer}  onClick={window.print} className="start"/>{' '}<br/><br/>
+
 
            <div class="center">
-    {/* <button id="button" onClick="randomColor()" class="button">Click me to change color!</button> */}
+    
     
   </div><br/>
           
@@ -101,7 +106,11 @@ export class Success extends Component {
                 onClick={this.back}
                 />
                 
-                <Button variant="secondary" onClick={ResDownload} >Download</Button>{' '}
+            
+               
+         
+               
+                
 
           </React.Fragment>
        
